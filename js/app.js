@@ -13,5 +13,6 @@
             document.documentElement.classList.add(className);
         }));
     }
+    window["FLS"] = true;
     isWebp();
 })();

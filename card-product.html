@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Карточка товара</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220624161804">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__top">
+					<div class="header__column">
+						<a href="mailto:mail@vkplitka.ru" class="header__item _icon-email">mail@vkplitka.ru</a>
+						<a href="tel:+79999999999" class="header__item _icon-phone">+7 (999) 999-99-99</a>
+					</div>
+					<div class="header__column">
+						<a href="#" class="header__logo">
+							<picture><source srcset="img/Logo.webp" type="image/webp"><img src="img/Logo.png" alt="логотип"></picture>
+						</a>
+					</div>
+					<div class="header__column">
+						<button type="button" class="header__button btn">Заказать звонок</button>
+						<a href="#" class="header__cart">
+							<img src="img/icons/bag.svg" alt="иконка корзины">
+							<span>1</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom">
+				<div class="header__container">
+					<div class="header__bottom-inner">
+						<nav class="header__menu menu">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="#" class="menu__link menu-link _icon-arrow-right">Керамическая
+										плитка</a>
+									<ul hidden class="menu__sub-list">
+										<li class="menu__sub-item"> <span class="menu-link _icon-arrow-right">Тип помещения</span>
+											<ul class="menu__subsub-list">
+												<li class="menu__subsub-item"><a href="#" class="menu__subsub-link menu-link">Для ванной</a>
+												</li>
+												<li class="menu__subsub-item"><a href="#" class="menu__subsub-link menu-link">Для кухни</a></li>
+												<li class="menu__subsub-item"><a href="#" class="menu__subsub-link menu-link">Для туалета</a>
+												</li>
+												<li class="menu__subsub-item"><a href="#" class="menu__subsub-link menu-link">Для фартука</a>
+												</li>
+												<li class="menu__subsub-item"><a href="#" class="menu__subsub-link menu-link">Для бассейна</a>
+												</li>
+												<li class="menu__subsub-item"><a href="#" class="menu__subsub-link menu-link">Для ступеней</a>
+												</li>
+												<li class="menu__subsub-item"><a href="#" class="menu__subsub-link menu-link">Для фасада</a>
+												</li>
+												<li class="menu__subsub-item"><a href="#" class="menu__subsub-link menu-link">Для улицы</a></li>
+												<li class="menu__subsub-item"><a href="#" class="menu__subsub-link menu-link">Для гаража</a>
+												</li>
+												<li class="menu__subsub-item"><a href="#" class="menu__subsub-link menu-link">Для коридора</a>
+												</li>
+											</ul>
+										</li>
+										<li class="menu__sub-item"> <span class="menu-link _icon-arrow-right">Тип литки</span> </li>
+										<li class="menu__sub-item"> <span class="menu-link _icon-arrow-right">Поверхность</span> </li>
+										<li class="menu__sub-item"> <span class="menu-link _icon-arrow-right">Форма</span> </li>
+										<li class="menu__sub-item"> <span class="menu-link _icon-arrow-right">Стиль</span> </li>
+										<li class="menu__sub-item"> <span class="menu-link _icon-arrow-right">Рисунок</span> </li>
+										<li class="menu__sub-item"> <span class="menu-link _icon-arrow-right">Цвет</span> </li>
+										<li class="menu__sub-item"> <span class="menu-link _icon-arrow-right">Страна</span> </li>
+										<li class="menu__sub-item"> <span class="menu-link _icon-arrow-right">Размер</span> </li>
+									</ul>
+								</li>
+								<li class="menu__item"><a href="#" class="menu__link menu-link _icon-arrow-right">Керамогранит</a></li>
+								<li class="menu__item"><a href="#" class="menu__link menu-link _icon-arrow-right">Мозаика</a>
+								</li>
+								<li class="menu__item"><a href="#" class="menu__link menu-link _icon-arrow-right">Ступени</a>
+								</li>
+								<li class="menu__item"><a href="#" class="menu__link menu-link _icon-arrow-right">Натуральный
+										камень</a></li>
+								<li class="menu__item"><a href="#" class="menu__link menu-link _icon-arrow-right">Аксессуары</a>
+								</li>
+								<li class="menu__item"><a href="#" class="menu__link menu-link _icon-arrow-right">Акции</a></li>
+							</ul>
+						</nav>
+						<button type="button" class="header__search">
+							<img src="img/icons/search.svg" alt="иконка поиска">
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<div class="breadcrumbs">
+				<div class="breadcrumbs__container">
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item">
+							<a href="index.html" class="breadcrumbs__link">Главная</a>
+						</li>
+						<li class="breadcrumbs__item">
+							<a href="catalog.html" class="breadcrumbs__link">Каталог</a>
+						</li>
+						<li class="breadcrumbs__item">
+							<span class="breadcrumbs__link">Керамическая плитка</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<section class="page__product product">
+				<div class="product__container">
+					<div class="product__navigations card-navigation">
+						<div class="card-navigation__navigation card-navigation__navigation_left">
+							<div class="card-navigation__arrow-left">
+								<img src="img/icons/arrow-slider-left.svg" alt="стрелка влево">
+							</div>
+							<div class="card-navigation__navigation-text">Bastion</div>
+						</div>
+						<div class="card-navigation__navigation card-navigation__navigation_right">
+							<div class="card-navigation__navigation-text">Эллада</div>
+							<div class="card-navigation__arrow-right">
+								<img src="img/icons/arrow-slider-right.svg" alt="стрелка вправо">
+							</div>
+						</div>
+					</div>
+					<div class="product__body">
+						<aside class="product__filter filter-catalog">
+							<div class="filter-catalog__buttons">
+								<button type="button" class="filter-catalog__button filter-catalog__button_active">
+									Коллекции <span>(640)</span>
+								</button>
+								<button type="button" class="filter-catalog__button">
+									Товар <span>(980)</span>
+								</button>
+							</div>
+							<div class="filter-catalog__items">
+								<div class="filter-catalog__item _active">
+									<button type="button" class="filter-catalog__title _icon-arrow-right">Категория</button>
+									<div class="filter-catalog__checkbox-wrapper">
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_1" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_1" class="checkbox__label">
+												<span class="checkbox__text">Керамическая плитка</span>
+											</label>
+										</div>
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_2" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_2" class="checkbox__label">
+												<span class="checkbox__text">Керамогранит</span>
+											</label>
+										</div>
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_3" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_3" class="checkbox__label">
+												<span class="checkbox__text">Мозаика</span>
+											</label>
+										</div>
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_4" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_4" class="checkbox__label">
+												<span class="checkbox__text">Ступени</span>
+											</label>
+										</div>
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_5" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_5" class="checkbox__label">
+												<span class="checkbox__text">Натуральный камень</span>
+											</label>
+										</div>
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_6" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_6" class="checkbox__label">
+												<span class="checkbox__text">Аксессуары</span>
+											</label>
+										</div>
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_7" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_7" class="checkbox__label">
+												<span class="checkbox__text">Ступени</span>
+											</label>
+										</div>
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_8" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_8" class="checkbox__label">
+												<span class="checkbox__text">Натуральный камень</span>
+											</label>
+										</div>
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_9" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_9" class="checkbox__label">
+												<span class="checkbox__text">Аксессуары</span>
+											</label>
+										</div>
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_17" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_17" class="checkbox__label">
+												<span class="checkbox__text">Аксессуары</span>
+											</label>
+										</div>
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_18" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_18" class="checkbox__label">
+												<span class="checkbox__text">Аксессуары</span>
+											</label>
+										</div>
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_19" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_19" class="checkbox__label">
+												<span class="checkbox__text">Аксессуары</span>
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="filter-catalog__item _active">
+									<button type="button" class="filter-catalog__title _icon-arrow-right">Рисунок</button>
+									<div class="filter-catalog__checkbox-wrapper">
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_10" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_10" class="checkbox__label">
+												<span class="checkbox__text">Плитка под дерево</span>
+											</label>
+										</div>
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_11" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_11" class="checkbox__label">
+												<span class="checkbox__text">Плитка под мрамор</span>
+											</label>
+										</div>
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_12" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_12" class="checkbox__label">
+												<span class="checkbox__text">Плитка с Пано</span>
+											</label>
+										</div>
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_13" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_13" class="checkbox__label">
+												<span class="checkbox__text">Пэчворк</span>
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="filter-catalog__item _active">
+									<button type="button" class="filter-catalog__title _icon-arrow-right">Форма</button>
+									<div class="filter-catalog__checkbox-wrapper">
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_14" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_14" class="checkbox__label">
+												<span class="checkbox__text">Кабанчик</span>
+											</label>
+										</div>
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_15" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_15" class="checkbox__label">
+												<span class="checkbox__text">Шеврон</span>
+											</label>
+										</div>
+										<div class="filter-catalog__checkbox checkbox">
+											<input id="c_16" autocomplete="off" type="checkbox" name="form[]" class="checkbox__input">
+											<label for="c_16" class="checkbox__label">
+												<span class="checkbox__text">Шестиугольная</span>
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="filter-catalog__item">
+									<button type="button" class="filter-catalog__title _icon-arrow-right">Тип
+										помещения</button>
+								</div>
+								<div class="filter-catalog__item">
+									<button type="button" class="filter-catalog__title _icon-arrow-right">Поверхность</button>
+								</div>
+								<div class="filter-catalog__item">
+									<button type="button" class="filter-catalog__title _icon-arrow-right">Страна</button>
+								</div>
+								<div class="filter-catalog__item">
+									<button type="button" class="filter-catalog__title _icon-arrow-right">Тип
+										плитки</button>
+								</div>
+								<div class="filter-catalog__item">
+									<button type="button" class="filter-catalog__title _icon-arrow-right">Материал</button>
+								</div>
+								<div class="filter-catalog__item">
+									<button type="button" class="filter-catalog__title _icon-arrow-right">Стиль</button>
+								</div>
+								<div class="filter-catalog__item">
+									<button type="button" class="filter-catalog__title _icon-arrow-right">Цвет</button>
+								</div>
+								<div class="filter-catalog__item">
+									<button type="button" class="filter-catalog__title _icon-arrow-right">Размер</button>
+								</div>
+								<button type="button" class="filter-catalog__filter-button btn">Сбросить</button>
+							</div>
+						</aside>
+						<div class="product__content">
+							<div class="product__image">
+								<picture><source srcset="img/products/product-01.webp" type="image/webp"><img src="img/products/product-01.jpg" alt="керамическая плитка"></picture>
+							</div>
+							<div class="product__info info-card">
+								<h4 class="info-card__title subtitle">Blend Grey rett MH2H</h4>
+								<div class="info-card__code">Артикул: 342292</div>
+								<div class="info-card__price">Цена от <span>1000р./м2</span></div>
+								<div class="info-card__inputs">
+									<div class="info-card__quantity quantity">
+										<div class="quantity__plus">-</div>
+										<input type="text" name="form[]" value="1" class="quantity__number">
+										<div class="quantity__minus">+</div>
+									</div>
+									<div class="info-card__meter">м<sup>2</sup></div>
+								</div>
+								<div class="info-card__buy">
+									<button type="button" class="info-card__btn btn">Купить</button>
+									<button hidden type="button" class="info-card__btn-black">В корзине</button>
+									<a href="#" class="info-card__printer _icon-printer"></a>
+								</div>
+								<div class="info-card__items">
+									<ul class="info-card__list">
+										<li class="info-card__item info-card__item_left">Производитель:</li>
+										<li class="info-card__item info-card__item_left">Размер:</li>
+										<li class="info-card__item info-card__item_left">Цвет</li>
+										<li class="info-card__item info-card__item_left">Коллекция:</li>
+										<li class="info-card__item info-card__item_left">Поверхность:</li>
+										<li class="info-card__item info-card__item_left">Тип:</li>
+										<li class="info-card__item info-card__item_left">Применение:</li>
+										<li class="info-card__item info-card__item_left">Форма:</li>
+										<li class="info-card__item info-card__item_left">Рисунок</li>
+									</ul>
+									<ul class="info-card__list">
+										<li class="info-card__item info-card__item_right">Laparet (Россия)</li>
+										<li class="info-card__item info-card__item_right">60х60</li>
+										<li class="info-card__item info-card__item_right right-color"></li>
+										<li class="info-card__item info-card__item_right">Blend</li>
+										<li class="info-card__item info-card__item_right">Поверхность</li>
+										<li class="info-card__item info-card__item_right">Тип</li>
+										<li class="info-card__item info-card__item_right">Применение</li>
+										<li class="info-card__item info-card__item_right">Форма</li>
+										<li class="info-card__item info-card__item_right">Рисунок</li>
+									</ul>
+								</div>
+								<button hidden type="button" class="info-card__button">Все характеристики</button>
+								<button type="button" class="info-card__button">Свернуть</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__body">
+					<nav class="footer__menu">
+						<ul class="footer__menu-list">
+							<li><a href="#" class="footer__menu-link">Новинки</a></li>
+							<li><a href="#" class="footer__menu-link"> Популярное </a></li>
+							<li><a href="#" class="footer__menu-link">Керамическая плитка</a></li>
+							<li><a href="#" class="footer__menu-link"> Керамогранит</a></li>
+							<li><a href="#" class="footer__menu-link"> Мозаика</a></li>
+							<li><a href="#" class="footer__menu-link"> Ступени </a></li>
+							<li><a href="#" class="footer__menu-link">Натуральный камень</a></li>
+							<li><a href="#" class="footer__menu-link"> Аксессуары</a></li>
+							<li><a href="#" class="footer__menu-link"> Акции</a></li>
+						</ul>
+					</nav>
+					<div class="footer__info">
+						<div class="footer__info-column">
+							<a href="#" class="footer__info-link _icon-location">г. Москва, ул. Улица, д. 00</a>
+							<a href="tel:+79999999999" class="footer__info-link _icon-phone">+7 (999) 999-99-99</a>
+							<a href="mailto:mail@vkplitka.ru" class="footer__info-link _icon-email">mail@vkplitka.ru</a>
+						</div>
+						<div class="footer__info-column">
+							<a href="#" class="footer__logo">
+								<picture><source srcset="img/logo-white.webp" type="image/webp"><img src="img/logo-white.png" alt="логотип"></picture>
+							</a>
+						</div>
+						<div class="footer__info-column">
+							<div class="footer__button btn">Написать нам</div>
+						</div>
+					</div>
+					<div class="footer__copy">Copyright 2022 © VENDOR KERAMIK</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<div hidden class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div type="button" class="popup__close">
+					<img src="img/icons/close.svg" alt="крестик">
+				</div>
+				<div class="popup__body">
+					<div class="popup__title subtitle">остались вопросы?</div>
+					<form action="#" class="popup__form">
+						<div class="popup__form-items">
+							<div class="popup__form-item">
+								<input autocomplete="off" type="text" name="form[]" placeholder="Ваше имя*" class="popup__form-input">
+							</div>
+							<div class="popup__form-item">
+								<input autocomplete="off" type="text" name="form[]" placeholder="Ваш email*" class="popup__form-input">
+							</div>
+							<div class="popup__form-item">
+								<textarea name="massage" placeholder="Комментарий" class="popup__form-input popup__form-input_text"></textarea>
+							</div>
+							<div class="popup__form-item">
+								<input id="c_1" data-error="Ошибка" class="popup__form-input-checkbox" type="checkbox" name="form[]">
+								<label for="c_1" class="popup__form-label">
+									<span class="popup__form-text">Подтверждая заказ, я принимаю условия пользовательского соглашения</span>
+								</label>
+							</div>
+						</div>
+						<div class="popup__form-buttom">Отправить</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div hidden class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content popup__content_two">
+				<div type="button" class="popup__close">
+					<img src="img/icons/close.svg" alt="крестик">
+				</div>
+				<div class="popup__body popup-consent">
+					<div class="popup-consent__title subtitle">Согласие на обработку персональных данных</div>
+					<p class="popup-consent__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.</p>
+					<div class="popup-consent__buttons">
+						<button type="button" class="popup-consent__button popup-consent__button_white">Не согласен</button>
+						<button type="button" class="popup-consent__button">Согласен</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20220624161804"></script>
+</body>
+
+</html>
